@@ -1,0 +1,22 @@
+{
+  "name": "p1bd",
+  "version": "1.0.0",
+  "description": "Proyecto 1 de la Materia Base de datos, realizado por Alejandro Fariña y Juan Andrés Grullon",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Alejandro Fariña y Juan Andrés Grullon",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-myconnection": "^1.0.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
